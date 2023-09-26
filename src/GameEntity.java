@@ -2,6 +2,15 @@
 public class GameEntity {
     private int heal;
     private int damage;
+    private String superAbility;
+
+    public String getSuperAbility() {
+        return superAbility;
+    }
+
+    public void setSuperAbility(String superAbility) {
+        this.superAbility = superAbility;
+    }
 
     public int getHeal() {
         return heal;
