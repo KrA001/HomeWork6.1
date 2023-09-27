@@ -1,20 +1,20 @@
 public class Weapon {
-    private String assaultRifles;
-    private String m16;
+    private String weaponName;
+    private String weaponType;
 
-    public String getAssaultRifles() {
-        return assaultRifles;
+    public String getWeaponName() {
+        return weaponName;
     }
 
-    public void setAssaultRifles(String assaultRifles) {
-        this.assaultRifles = assaultRifles;
+    public void setWeaponName(String weaponName) {
+        this.weaponName = weaponName;
     }
 
-    public String getM16() {
-        return m16;
+    public String getWeaponType() {
+        return weaponType;
     }
 
-    public void setM16(String m16) {
-        this.m16 = m16;
+    public void setWeaponType(String weaponType) {
+        this.weaponType = weaponType;
     }
 }
